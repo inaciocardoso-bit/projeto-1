@@ -1,58 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pandora</title>
     <style>
-        header{
+        header {
             font-style: initial;
             background-color: #16397E;
-            color:#D9FFF9;
+            color: #D9FFF9;
             max-width: 760px;
             margin: 0 auto;
             padding: 16px;
             border: 6px solid cornflowerblue;
         }
-        main{
+
+        main {
             font-style: italic;
             background-color: #D9FFF9;
-            color:#16397E;
+            color: #16397E;
             max-width: 760px;
             margin: 0 auto;
             padding: 16px;
+        }
+        article{
             display: flex
         }
 
-        img{
+        img {
             width: 80px;
             height: 60px;
         }
+
         .artigo-autor {
             font-weight: bold;
         }
     </style>
 </head>
+
 <body>
     <header>
         <h1>Avatar: o mundo de Pandora </h1>
-        <p>vou compartilhar conhecimentos sobre a trilogia de filmes avatar sua biologia, botanica e cultura dos na'vi</p> 
+        <p>vou compartilhar conhecimentos sobre a trilogia de filmes avatar sua biologia, botanica e cultura dos na'vi
+        </p>
     </header>
     <main>
-        <img src="Gemini_Generated_Image_80enkm80enkm80en.png" alt="Paisagem noturna e imersiva de uma floresta alienígena com samambaias, cogumelos e cipós emitindo luz bioluminescente azul e roxa. Ao fundo, um grande planeta gasoso e luas brilham no céu estrelado.">
-    <div>
-        <h2>O que é Avatar?</h2>
-        <p class="artigo-autor">Por: Arthur Inacio</p>
-        <p>aqui irei complartilha curiosidades sobre o fantanstico, incrivel, e diverso de Pandora, explorando sua flora, fauna e cultura</p>
-        <button>💙 <span>0</span></button>
-        <button>👍 <span>0</span></button>
-    </div>
+        <article>
+            <img src="Gemini_Generated_Image_80enkm80enkm80en.png"
+                alt="Paisagem noturna e imersiva de uma floresta alienígena com samambaias, cogumelos e cipós emitindo luz bioluminescente azul e roxa. Ao fundo, um grande planeta gasoso e luas brilham no céu estrelado.">
+            <div>
+                <h2>O que é Avatar?</h2>
+                <p class="artigo-autor">Por: Arthur Inacio</p>
+                <p>aqui irei complartilha curiosidades sobre o fantanstico, incrivel, e diverso de Pandora, explorando sua
+                    flora, fauna e cultura</p>
+                <button>💙 <span>0</span></button>
+                <button>👍 <span>0</span></button>
+            </div>
+        </article>
+        <article>
+            <img src="Gemini_Generated_Image_80enkm80enkm80en.png"
+                alt="Paisagem noturna e imersiva de uma floresta alienígena com samambaias, cogumelos e cipós emitindo luz bioluminescente azul e roxa. Ao fundo, um grande planeta gasoso e luas brilham no céu estrelado.">
+            <div>
+                <h2>Você sabe o que é Avatar?</h2>
+                <p class="artigo-autor">Por: Arthur Inacio</p>
+                <p>aqui irei complartilha curiosidades sobre o fantanstico, incrivel, e diverso de Pandora, explorando sua
+                    flora, fauna e cultura</p>
+                <button>💙 <span>0</span></button>
+                <button>👍 <span>0</span></button>
+            </div>
+        </article>
     </main>
 </body>
 <script>
     const botoes = document.querySelector("button");
 
-    botoes.forEach( function(botao){
+    botoes.forEach(function (botao) {
 
         botao.addEventListener("click", botaoClicado);
         function botaoClicado() {
@@ -61,9 +84,10 @@
             texto.textContent++;
         }
     });
-        
+
 
 
 
 </script>
+
 </html>
